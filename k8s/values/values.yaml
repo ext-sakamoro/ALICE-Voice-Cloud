@@ -1,5 +1,5 @@
 global:
-  domain: voice-cloud.alice-platform.com
+  domain: voice-cloud.alicelaw.net
 frontend:
   replicas: 2
   image: voice-cloud/frontend:latest
