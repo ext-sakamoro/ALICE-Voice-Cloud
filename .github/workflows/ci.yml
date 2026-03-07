@@ -12,8 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Create dependency stub
         run: |
-          mkdir -p ../../../ALICE-Voice/src
-          cat > ../../../ALICE-Voice/Cargo.toml << 'TOML'
+          mkdir -p ../ALICE-Voice/src
+          cat > ../ALICE-Voice/Cargo.toml << 'TOML'
           [package]
           name = "alice-voice"
           version = "0.1.0"
@@ -22,7 +22,7 @@ jobs:
           default = []
           std = []
           TOML
-          echo "" > ../../../ALICE-Voice/src/lib.rs
+          echo "" > ../ALICE-Voice/src/lib.rs
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
         with:
