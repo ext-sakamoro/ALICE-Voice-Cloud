@@ -69,6 +69,7 @@ struct TtsResponse {
 
 // STT
 #[derive(Deserialize)]
+#[allow(dead_code)]
 struct SttRequest { format: Option<String>, language: Option<String>, duration_ms: Option<u64> }
 #[derive(Serialize)]
 struct SttResponse {
