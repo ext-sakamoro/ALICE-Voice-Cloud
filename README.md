@@ -109,4 +109,6 @@ Response:
 
 ## License
 
-AGPL-3.0. Commercial dual-license available — contact for pricing.
+`LicenseRef-Proprietary`. The text is [LICENSE-Proprietary](LICENSE-Proprietary).
+
+Enquiries: https://extoria.co.jp/
