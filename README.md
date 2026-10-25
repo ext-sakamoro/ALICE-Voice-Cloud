@@ -2,8 +2,6 @@
 
 Cloud voice processing powered by ALICE-Voice. Compress, decompress, and analyze audio with industrial-strength codecs via a simple REST API.
 
-[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-
 ## Status
 
 | Check | Status |

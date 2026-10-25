@@ -33,7 +33,7 @@ export default function Home() {
           ))}
         </section>
       </main>
-      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">AGPL-3.0 | ALICE Voice Cloud</footer>
+      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">LicenseRef-Proprietary | ALICE Voice Cloud</footer>
     </div>
   );
 }
